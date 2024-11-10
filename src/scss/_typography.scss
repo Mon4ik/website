@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Garamond";
+  src:
+    local("Apple Garamond Light"),
+    url("/Garamond.woff") format("woff");
+}
+
+body {
+  @apply font-body text-3xl bg-stone-100 text-stone-900;
+}
+
+h1 {
+  @apply font-heading text-5xl;
+}
+
+a {
+  @apply text-blue-800;
+
+  &:hover {
+    @apply underline
+  }
+}
