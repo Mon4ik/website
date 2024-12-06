@@ -22,12 +22,11 @@ jobs:
         run: bun run build
 
       - name: Deployment requirements
-        working-directory: ./website
         run: |
-          cp ../CNAME build/
+          cp CNAME build/
           touch build/.nojekyll
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: website/build
+          folder: build
