@@ -16,12 +16,13 @@
         </ul>
 
         <div>
-            <div class="w-full h-full grid grid-cols-2 lg:grid-cols-3 gap-2">
-                <button class="btn w-full text-2xl">days since gd update</button
-                >
-                <button class="btn w-full">projects</button>
-                <button class="btn w-full" disabled>randomart</button>
-                <button class="btn w-full" disabled>sshin</button>
+            <div class="w-full h-fit grid grid-cols-2 lg:grid-cols-3 gap-2">
+                <a href="https://randomart.idkncc.ru/">
+                    <button class="btn w-full h-full text-2xl">
+                        randomart
+                    </button>
+                </a>
+                <button class="btn w-full" disabled> term(WIP) </button>
             </div>
         </div>
     </div>
